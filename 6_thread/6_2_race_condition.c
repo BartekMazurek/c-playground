@@ -14,6 +14,9 @@ DWORD WINAPI ThreadWorker(LPVOID lpParam) {
 }
 
 int main() {
+
+    sum = 0;
+
     HANDLE hThread[THREADS];
     DWORD dwThread[THREADS];
 
